@@ -117,7 +117,7 @@ export default function Home() {
   const [draft, setDraft] = useState(defaultDraft);
   const [wallet, setWallet] = useState("");
   const [busy, setBusy] = useState(false);
-  const [status, setStatus] = useState("Ready. Deploy ClaimEasy, then set NEXT_PUBLIC_CONTRACT_ADDRESS.");
+  const [status, setStatus] = useState("Ready. Connected to ClaimEasy contract on GenLayer testnet.");
   const [decision, setDecision] = useState<Decision>({
     status: "No claim yet",
     decision: "PENDING",
